@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>VICTOR-Estructura o Maqueta Básica de una Pagina Web en HTML5</title>
+    <meta name="description" content="turismo Valles">
+    <meta name="keywords" content="Cascadas, Micos, Xilitla, Tamasopo, Tirolesa">
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        #contenedor {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header, nav, aside, section, footer {
+            float: left;
+            width: 100%;
+        }
+        #logo {
+            background-color: rgb(0, 0, 0);
+            width: 200px;
+            height: 150px;
+            float: left;
+            border: solid right;
+        }
+        #slogan {
+            background-color: rgb(0, 0, 0);
+            width: calc(100% - 200px);
+            height: 150px;
+            float: left;
+            text-align: center;
+        }
+        #slogan p {
+            font-size: 36px;
+            text-align: center;
+            color: green;
+        }
+        aside {
+            background-color: rgb(241, 236, 236);
+            width: 200px;
+            height: 400px;
+            overflow: hidden;
+        }
+        aside img {
+            width: 100%;
+            height: auto;
+        }
+        section {
+            background-color: white;
+            width: calc(100% - 200px);
+            height: 400px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+        }
+        a {
+            text-decoration: none;
+        }
+        h1 {
+            font-size: 36px;
+            text-align: center;
+            color: green;
+        }
+        .imagen-centrada {
+            text-align: center;
+        }
+        .imagen-centrada img {
+            width: 50%;
+            height: auto;
+            border: none;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <header>
+            <div id="logo">
+                <img src="anony.jfif" width="195px" height="150px"> <!--Aquí va el logo-->
+            </div>
+            <div id="slogan">
+                <p>LOS PROGRAMADORES MAS IMPORTANTES</p>
+            </div>
+        </header>
+        <nav>
+            <a href="Home.html">Inicio</a>
+            <a href="linus.html">Linus</a>
+            <a href="marksurkerber.html">Mark surkerber</a>
+            <a href="elonkmusk.html">Elon musk</a>
+        </nav>
+        <aside>
+            <img src="intro.jpg" alt="Image description" style="margin-bottom: 20px;">
+            <p>Para esta pagina me inspire en los tres mejores que para mi hicieron las mejores cosas en la vida cotidiana .</p>
+          </aside>
+          <section>
+            <p> 
+              Elon Musk, Linus Torvalds y Mark Zuckerberg son tres figuras influyentes en la tecnología, cada uno destacándose en áreas clave. Musk, fundador de empresas como Tesla y SpaceX, ha revolucionado la industria automotriz y espacial con innovaciones sostenibles y visión futurista. Linus Torvalds, creador de Linux, transformó el mundo del software libre al desarrollar un sistema operativo que es la base de muchos servidores y dispositivos. Mark Zuckerberg, por su parte, cofundó Facebook (ahora Meta), cambiando la forma en que las personas se conectan a nivel global, liderando la evolución de las redes sociales. Estos tres visionarios han moldeado el panorama tecnológico moderno en diferentes ámbitos.
+            </p>
+            <div class="imagen-centrada">
+                <a href="https://ubuntu.com/"> 
+                  <img src="halo.jpg" alt="Imagen de Elon Musk, Linus Torvalds y Mark Zuckerberg">
+                </a>
+              </div>
+          </section>
+        <footer>
+            <p>ismael palacios garcia </p>
+            <p>posdata tengo novia y es colosa</p>
+        </footer>
+    </div>
+</body>
+</html>
